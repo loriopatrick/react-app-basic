@@ -1,0 +1,11 @@
+.App {
+  $context-color: green;
+  $context-size: 300px;
+
+  & > .context {
+    width: $context-size;
+    height: $context-size;
+    background: $context-color;
+    margin: 50px;
+  }
+}
